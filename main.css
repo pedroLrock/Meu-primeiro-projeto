@@ -1,0 +1,134 @@
+*{
+    margin: 0 ;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 101%;
+    height: 100px;
+    position: relative;
+    top:-20px;
+    left:-7px;
+    background-color:rgb(209, 67, 15);
+
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+    
+}
+
+header nav li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+    header .container{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top:-70px;
+    }
+
+    section .container{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Pesquisar{
+        margin-left: 900px;
+        padding:30px;
+        
+    }
+
+    body{
+        background-image: url(./imagens/naruto.jpg);
+    }
+
+    .Logo img{
+        height: 40px;
+    }
+
+    section .container{
+        align-items: flex-start;
+    }
+    
+section{
+    padding: 24px 0px;/*Define o espaçamento entres as seções*/
+}
+
+
+section h2{
+    display: flex;
+    margin-bottom: 0px;  /*Define o espaçamento entre o sobre e o texto*/
+}
+
+section p{
+    display: flex;
+    margin-bottom: 0px; /*Define o espaçamento entre o Logo e o texto*/
+}
+
+section img{
+    margin-right: 10px; /* Define o espaçamento entre o texto e as imagem*/
+}
+
+.imagem{
+    width: 200px; /* Largura fixa */
+    height: 296px; /* Altura fixa */
+    object-fit: cover; /* Ajusta a imagem para cobrir a área definida */
+}
+
+.caixadetexto {
+    width: 500px; /* Define a largura da caixa */
+    height: auto; /* Define a altura da caixa */
+    margin-right: 750px;
+    font-size: 14px;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif; /* Define a fonte Roboto para o corpo do texto */
+    }
+
+    .Perfil{
+    position: absolute;
+    top: 4px;
+    right: 0;
+    width: 90px;
+    height: auto;
+}
+    .Perfil1{
+    position: absolute;
+    right: 86px;
+    top: 45px;
+    }
+
+    .A{
+        margin-top: 38px;
+    }
+.form1{
+position: relative;
+left: 130px;
+top:-26px;
+}
+.Form{
+top: -30px;
+position: relative;
+height: 0;
+width:  100%px;
+}
+    .footer {
+        background-color:rgb(209, 67, 15);
+        height: 150px;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+    }
